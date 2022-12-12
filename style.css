@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+}
+
+.navbar{
+    background-color: #212121;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 1%;
+    justify-content: space-around;
+}
+
+.logo{
+    background-color: whitesmoke;
+    height: 50px;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    color: whitesmoke;
+    height: 50px;
+    width: 65%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.sesión{
+    padding-top: 0.5%;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.usuario{
+    padding-left: 2%;
+    margin-left: 2%;
+    padding-right: 2%;
+    margin-right: 2%;
+    font-size: small;
+}
+
+.litem{
+    list-style: none;
+    display: inline;
+    padding: 5px;
+    margin: 2px;
+}
+
+.litem:hover{
+    color: white;
+    border-bottom: .25em solid;
+}
