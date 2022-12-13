@@ -7,15 +7,28 @@ body{
     display: flex;
     flex-wrap: wrap;
     padding-top: 1%;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-bottom: 1%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 2%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.navbar2{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
     justify-content: space-around;
 }
 
+
 .logo{
     background-color: whitesmoke;
-    height: 50px;
+    padding: 15px;
     width: 15%;
     display: flex;
     align-items: center;
@@ -24,34 +37,52 @@ body{
 
 .menu{
     color: whitesmoke;
-    height: 50px;
-    width: 65%;
+    height: 30px;
+    width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    
+    padding-top: 3px;
 }
 
 .sesión{
     padding-top: 0.5%;
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
     align-items: center;
 }
 
+.sa{
+    text-decoration: none;
+    color: whitesmoke;
+    padding-left: 15px;
+    font-size: small;
+}
+
+.sa:hover{
+    font-weight: bold;
+}
+
 .usuario{
     padding-left: 2%;
     margin-left: 2%;
     padding-right: 2%;
-    margin-right: 2%;
     font-size: small;
+    background-color: #212121;
+    color: whitesmoke;
+    border-radius: 12px;
+}
+
+.usuario:hover{
+    border-bottom: .15em solid;
 }
 
 .litem{
     list-style: none;
     display: inline;
+    padding-top: 0px;
     padding: 5px;
     margin: 2px;
 }
@@ -60,3 +91,4 @@ body{
     color: white;
     border-bottom: .25em solid;
 }
+
